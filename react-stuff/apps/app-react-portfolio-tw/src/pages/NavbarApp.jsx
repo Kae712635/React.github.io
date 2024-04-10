@@ -9,7 +9,7 @@ function NavbarApp() {
       <Navbar.Brand>
         <Link to="/">
           <img
-            src="../images/Logo_base.png"
+            src="images/Logo_base.png"
             className="mr-3 h-6 sm:h-9"
             alt="Sample website logo"
           />
