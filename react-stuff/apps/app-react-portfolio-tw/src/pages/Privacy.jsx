@@ -1,7 +1,10 @@
 const Privacy = () => {
   return (
     <>
-      <h1>Privacy and Legal</h1>
+      <h1 className="font-size: calc(28px + (48 - 28) * ((100vw - 320px) / (1140 - 320)));
+            font-weight: bold;
+            line-height: 1.2;
+            margin-bottom: 32px;">Privacy and Legal</h1>
 
       <h2>General</h2>
       <p>

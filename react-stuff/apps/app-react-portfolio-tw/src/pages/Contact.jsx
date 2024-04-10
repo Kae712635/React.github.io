@@ -3,34 +3,34 @@ import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <>
-      <section className="lg:py-13 lg:px-42 px-8 py-6 text-center md:px-40 md:py-12 lg:py-14 xl:px-64 xl:py-16 2xl:px-72">
-        <h2 className="mb-1 text-3xl font-semibold tracking-tight text-black md:mb-4 md:text-5xl lg:mb-6 lg:text-5xl xl:text-6xl 2xl:text-6xl">
+      <section className="lg:py-13 lg:px-42 px-8 py-6 text-center md:px-40 md:py-12 lg:py-14 xl:px-64 xl:py-16 2xl:px-72" style={{ backgroundColor: '#161A30' }}>
+        <h2 className="mb-1 text-3xl font-semibold tracking-tight text-white md:mb-4 md:text-5xl lg:mb-6 lg:text-5xl xl:text-6xl 2xl:text-6xl">
         Get in touch
         </h2>
         <p
-          className="text-lg leading-relaxed text-black md:text-2xl md:leading-relaxed
+          className="text-lg leading-relaxed text-white md:text-2xl md:leading-relaxed
         lg:text-2xl lg:leading-relaxed xl:text-3xl xl:leading-relaxed 2xl:text-3xl 2xl:leading-relaxed"
         >
           Have a project you would like to discuss? Let's make something great together! Email me at {" "}
           <a
             href="#"
-            class="font-medium text-blue-600 underline underline-offset-4 hover:text-blue-500 hover:underline"
+            class="font-medium text-sky-400 underline underline-offset-4 hover:text-blue-500 hover:underline"
           >
             klervi.choblet@gmail.com
           </a>{" "}
           or use the form below to let me know a little more about your objectives and I'll get back to you.
         </p>
       </section>
-      <section>
+      <section className="pb-16" style={{ backgroundColor: '#31304D' }}>
         <div className="lg:flex justify-center items-center">
           {/* Image à gauche */}
-          <div className="lg:w-1/2 lg:pl-8">
+          <div className="lg:w-1/2 lg:pl-8 mt-8 lg:mt-0">
             <img src="https://lunevedy.com/ui/assets/img/800x900-typing.jpg" alt="Placeholder image" className="w-2/3 lg:w-full h-auto mb-8" />
           </div>
            {/* Contenu principal */}
            <div className="lg:w-1/2 lg:pl-8 lg:pr-8">
               {/* Contenu du formulaire ici */}
-              <div className="bg-gray-800 rounded-md p-6">
+              <div className=" rounded-md p-6" style={{ backgroundColor: '#161A30' }}>
                 <form id="email-form" name="email-form" method="post" action="https://formspree/n/nnnnn">
                   <div className="form-row">
                     <label htmlFor="full_name" className="block mb-2 text-white">Full Name</label>

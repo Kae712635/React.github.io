@@ -17,7 +17,7 @@ function NavbarApp() {
       </Navbar.Brand>
 
       <div className="flex md:order-2">
-        <Button className="bg-white text-black">
+        <Button className="bg-white text-black" style={{background: 'white'}}>
           <Link to="/contact" style={{ color: 'black', textDecoration: 'none' }}>
             Contact
           </Link>
